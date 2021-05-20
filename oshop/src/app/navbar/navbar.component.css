@@ -1,0 +1,11 @@
+i{
+    color: beige;
+}
+
+#leaf:hover{
+    color: chartreuse;
+}
+
+button{
+    text-decoration: none;
+}
