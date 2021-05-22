@@ -1,3 +1,4 @@
+import { ActivatedRoute } from '@angular/router';
 import { Injectable } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 import { SocialAuthService  } from 'angularx-social-login';
@@ -13,11 +14,15 @@ export class AuthService {
   user$ : Observable<SocialUser>;
 
 
-  constructor(private authService: SocialAuthService) { 
+  constructor(private authService: SocialAuthService , private route :ActivatedRoute) { 
     this.user$= authService.authState;
   }
 
   signInWithGoogle() {
+    let returnUrl = this.route.snapshot.queryParamMap.get('returnUrl') || '/' ;
+    localStorage.setItem('returnUrl' , returnUrl);
+
+    
     this.authService.signIn(GoogleLoginProvider.PROVIDER_ID).then((x: any) => console.log(x));
     this.user$.subscribe({
       next : data=>{

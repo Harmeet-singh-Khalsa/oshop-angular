@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HARMEET SINGH\\Desktop\\API\\POC\\POC.csproj": {}
+    "C:\\Users\\HARMEET SINGH\\Desktop\\Xpanxion Training\\Angular POC\\E-oshop\\API\\POC\\POC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HARMEET SINGH\\Desktop\\API\\POC\\POC.csproj": {
+    "C:\\Users\\HARMEET SINGH\\Desktop\\Xpanxion Training\\Angular POC\\E-oshop\\API\\POC\\POC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HARMEET SINGH\\Desktop\\API\\POC\\POC.csproj",
+        "projectUniqueName": "C:\\Users\\HARMEET SINGH\\Desktop\\Xpanxion Training\\Angular POC\\E-oshop\\API\\POC\\POC.csproj",
         "projectName": "POC",
-        "projectPath": "C:\\Users\\HARMEET SINGH\\Desktop\\API\\POC\\POC.csproj",
+        "projectPath": "C:\\Users\\HARMEET SINGH\\Desktop\\Xpanxion Training\\Angular POC\\E-oshop\\API\\POC\\POC.csproj",
         "packagesPath": "C:\\Users\\HARMEET SINGH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HARMEET SINGH\\Desktop\\API\\POC\\obj\\",
+        "outputPath": "C:\\Users\\HARMEET SINGH\\Desktop\\Xpanxion Training\\Angular POC\\E-oshop\\API\\POC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HARMEET SINGH\\AppData\\Roaming\\NuGet\\NuGet.Config",

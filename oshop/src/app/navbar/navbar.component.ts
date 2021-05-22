@@ -25,6 +25,7 @@ export class NavbarComponent implements OnInit {
     
   }
 
+
   getCartItems()  {
     this.shoppingCartService.getTotalItems().subscribe({
       next : data=>{

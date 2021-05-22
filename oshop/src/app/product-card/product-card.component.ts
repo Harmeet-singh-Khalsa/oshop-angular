@@ -1,3 +1,4 @@
+import { NavbarComponent } from './../navbar/navbar.component';
 import { Component, Input, OnInit } from '@angular/core';
 import { Cart } from '../model/Cart/cart.model';
 import { Product } from '../model/Product/product.model';
@@ -23,11 +24,17 @@ export class ProductCardComponent  {
   }
 
   addToCart(){    
+
     this.cartservice.addToCart(this.product);
+    this.quantity = this.quantity+1;
+    
+    
   }
 
   removeFromCart(){
     this.cartservice.removeFromCart(this.product);
+    this.quantity = this.quantity-1;
+   
   }
 
   getQuantity() : number{

@@ -61,8 +61,7 @@ import { OrderSuccessComponent } from './order-success/order-success.component';
         providers: [
           {
             id: GoogleLoginProvider.PROVIDER_ID,
-            provider: new GoogleLoginProvider(
-              // replace this with your google client id			
+            provider: new GoogleLoginProvider(		
               '425874635785-9qbseena0h69r9f6jbe7o84qpfjk6krr.apps.googleusercontent.com'
             )
           }

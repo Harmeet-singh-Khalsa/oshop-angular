@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HYZOQZ+Y8G9BoXdozDOMqQUZE59lQLq0CZuj9wLj3Uk/ZDSIaoQpP0V9G4Vo9Oqgl95M2OCpAuw9VuRTaoK2WA==",
+  "dgSpecHash": "rmVXShiMRwetmc6vocYKHNEyvw3uQBF6b4fdEUnq4HntlxY7e7SPlvPi2LPHoTbqToitFvKXCePeMl3jTi7UrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HARMEET SINGH\\Desktop\\API\\POC\\POC.csproj",
+  "projectFilePath": "C:\\Users\\HARMEET SINGH\\Desktop\\Xpanxion Training\\Angular POC\\E-oshop\\API\\POC\\POC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HARMEET SINGH\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\HARMEET SINGH\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

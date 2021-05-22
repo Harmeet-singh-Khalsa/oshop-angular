@@ -1,5 +1,6 @@
 <br>
 <h1>Shopping Cart</h1>
+
 <ng-container>
     <p>
         You have {{shoppingCartItemCount}} items in your shopping cart.
@@ -13,15 +14,20 @@
                 <th>Amount</th>
             </tr>
         </thead>
+        
         <tbody>
-            <tr *ngFor="let item of cart">
-                <td>
-                    <div [style.backgroundImage]="'url('+ item['imageurl']+')'" class="thumbnail" ></div>
-                </td>
-                <td>{{item['product_name']}}</td>
-                <td>{{item['quantity']}}</td>
-                <td>{{item['amount']*item['quantity']  | currency:"&#8377;"}}</td>
-            </tr>
+            <ng-container *ngFor="let item of cart">
+                <tr *ngIf="item.quantity > 0" >
+                    <td>
+                        <div [style.backgroundImage]="'url('+ item['imageurl']+')'" class="thumbnail" ></div>
+                    </td>
+                    <td>{{item['product_name']}}</td>
+                    <td>{{item['quantity']}}</td>
+                    <td>{{item['amount']*item['quantity']  | currency:"&#8377;"}}</td>
+                </tr>
+
+            </ng-container>
+            
         </tbody>
         <tfoot>
             <tr>
